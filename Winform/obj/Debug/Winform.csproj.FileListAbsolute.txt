@@ -1,0 +1,9 @@
+c:\users\admin\documents\visual studio 2017\Projects\Winform\Winform\bin\Debug\Winform.exe.config
+c:\users\admin\documents\visual studio 2017\Projects\Winform\Winform\bin\Debug\Winform.exe
+c:\users\admin\documents\visual studio 2017\Projects\Winform\Winform\bin\Debug\Winform.pdb
+c:\users\admin\documents\visual studio 2017\Projects\Winform\Winform\obj\Debug\Winform.csprojResolveAssemblyReference.cache
+c:\users\admin\documents\visual studio 2017\Projects\Winform\Winform\obj\Debug\Winform.Form1.resources
+c:\users\admin\documents\visual studio 2017\Projects\Winform\Winform\obj\Debug\Winform.Properties.Resources.resources
+c:\users\admin\documents\visual studio 2017\Projects\Winform\Winform\obj\Debug\Winform.csproj.GenerateResource.Cache
+c:\users\admin\documents\visual studio 2017\Projects\Winform\Winform\obj\Debug\Winform.exe
+c:\users\admin\documents\visual studio 2017\Projects\Winform\Winform\obj\Debug\Winform.pdb
