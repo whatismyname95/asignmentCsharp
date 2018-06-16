@@ -1,4 +1,4 @@
-﻿namespace Winform
+﻿namespace Assignment
 {
     partial class stdDetail
     {
@@ -28,18 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(stdDetail));
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.updateStudentId = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.updateStudentName = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.updateStudentGender = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.updateStudentAge = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.updateStudentClass = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
+            this.originId = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -52,13 +54,13 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "ID Sinh Viên";
             // 
-            // textBox1
+            // updateStudentId
             // 
-            this.textBox1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(186, 55);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(185, 29);
-            this.textBox1.TabIndex = 1;
+            this.updateStudentId.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.updateStudentId.Location = new System.Drawing.Point(186, 55);
+            this.updateStudentId.Name = "updateStudentId";
+            this.updateStudentId.Size = new System.Drawing.Size(185, 29);
+            this.updateStudentId.TabIndex = 1;
             // 
             // button1
             // 
@@ -71,6 +73,7 @@
             this.button1.TabIndex = 2;
             this.button1.Text = "Sửa";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.updateStudentEvent);
             // 
             // label2
             // 
@@ -82,13 +85,13 @@
             this.label2.TabIndex = 0;
             this.label2.Text = "Tên Sinh Viên";
             // 
-            // textBox2
+            // updateStudentName
             // 
-            this.textBox2.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(186, 94);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(185, 29);
-            this.textBox2.TabIndex = 1;
+            this.updateStudentName.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.updateStudentName.Location = new System.Drawing.Point(186, 94);
+            this.updateStudentName.Name = "updateStudentName";
+            this.updateStudentName.Size = new System.Drawing.Size(185, 29);
+            this.updateStudentName.TabIndex = 1;
             // 
             // label3
             // 
@@ -100,13 +103,13 @@
             this.label3.TabIndex = 0;
             this.label3.Text = "Giới tính";
             // 
-            // textBox3
+            // updateStudentGender
             // 
-            this.textBox3.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(186, 129);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(185, 29);
-            this.textBox3.TabIndex = 1;
+            this.updateStudentGender.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.updateStudentGender.Location = new System.Drawing.Point(186, 129);
+            this.updateStudentGender.Name = "updateStudentGender";
+            this.updateStudentGender.Size = new System.Drawing.Size(185, 29);
+            this.updateStudentGender.TabIndex = 1;
             // 
             // label4
             // 
@@ -118,13 +121,13 @@
             this.label4.TabIndex = 0;
             this.label4.Text = "Tuổi";
             // 
-            // textBox4
+            // updateStudentAge
             // 
-            this.textBox4.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(186, 172);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(185, 29);
-            this.textBox4.TabIndex = 1;
+            this.updateStudentAge.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.updateStudentAge.Location = new System.Drawing.Point(186, 172);
+            this.updateStudentAge.Name = "updateStudentAge";
+            this.updateStudentAge.Size = new System.Drawing.Size(185, 29);
+            this.updateStudentAge.TabIndex = 1;
             // 
             // label5
             // 
@@ -136,13 +139,13 @@
             this.label5.TabIndex = 0;
             this.label5.Text = "Lớp";
             // 
-            // textBox5
+            // updateStudentClass
             // 
-            this.textBox5.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(186, 212);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(185, 29);
-            this.textBox5.TabIndex = 1;
+            this.updateStudentClass.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.updateStudentClass.Location = new System.Drawing.Point(186, 212);
+            this.updateStudentClass.Name = "updateStudentClass";
+            this.updateStudentClass.Size = new System.Drawing.Size(185, 29);
+            this.updateStudentClass.TabIndex = 1;
             // 
             // button2
             // 
@@ -155,6 +158,16 @@
             this.button2.TabIndex = 2;
             this.button2.Text = "Xóa";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.deleteStudentEvent);
+            // 
+            // originId
+            // 
+            this.originId.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.originId.Location = new System.Drawing.Point(380, 12);
+            this.originId.Name = "originId";
+            this.originId.ReadOnly = true;
+            this.originId.Size = new System.Drawing.Size(127, 26);
+            this.originId.TabIndex = 1;
             // 
             // stdDetail
             // 
@@ -163,20 +176,21 @@
             this.ClientSize = new System.Drawing.Size(519, 319);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.updateStudentClass);
+            this.Controls.Add(this.updateStudentAge);
+            this.Controls.Add(this.updateStudentGender);
+            this.Controls.Add(this.updateStudentName);
+            this.Controls.Add(this.originId);
+            this.Controls.Add(this.updateStudentId);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "stdDetail";
-            this.Text = "stdDetail";
-            this.Load += new System.EventHandler(this.stdDetail_Load);
+            this.Text = "Thông Tin Sinh Viên";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -185,16 +199,17 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox updateStudentId;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox updateStudentName;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox updateStudentGender;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox updateStudentAge;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox updateStudentClass;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.TextBox originId;
     }
 }

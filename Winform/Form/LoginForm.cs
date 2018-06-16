@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Assignment;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,18 +9,21 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Winform
+namespace Assignment
 {
-    public partial class stdDetail : Form
+    public partial class LoginForm : Form
     {
-        public stdDetail()
+        public LoginForm()
         {
             InitializeComponent();
         }
 
-        public void stdDetail_Load(object sender, EventArgs e)
+        private void loginEvent(object sender, EventArgs e)
         {
 
+            Close();
+            
+            
         }
     }
 }

@@ -10,11 +10,11 @@ namespace Assignment
         {
         }
 
-        private const string DatabaseName = "quanlysinhvien";
-        private const string ServerName = "localhost";
+        private const string DatabaseName = "sql12243055";
+        private const string ServerName = "sql12.freemysqlhosting.net";
         private const string ServerPort = "3306";
-        private const string Uid = "root";
-        private const string Password = "";
+        private const string Uid = "sql12243055";
+        private const string Password = "dCdl7txxLJ";
         private const string SslMode = "none";
         private const string PersistSecurityInfo = "True";
         private const string Charset = "utf8";

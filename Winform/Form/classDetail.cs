@@ -9,9 +9,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Winform;
+using Assignment;
 
-namespace Winform
+namespace Assignment
 {
     public partial class classDetail : Form
     {
@@ -48,6 +48,21 @@ namespace Winform
             cmd.ExecuteNonQuery();
             DBConnection.Instance().CloseConnection();
             MessageBox.Show("Updated");
+
+            updateForm.onUpdate();
+
+            Close();
+        }
+
+        private void deleteClasssEvent(object sender, EventArgs e)
+        {
+            DBConnection.Instance().OpenConnection();
+
+            var sqlQuery = "DELETE FROM `stdclass` WHERE `name` = '" + originClassName.Text + "'";
+            var cmd = new MySqlCommand(sqlQuery, DBConnection.Instance().Connection);
+            cmd.ExecuteNonQuery();
+            DBConnection.Instance().CloseConnection();
+            MessageBox.Show("Deleted!!");
 
             updateForm.onUpdate();
 

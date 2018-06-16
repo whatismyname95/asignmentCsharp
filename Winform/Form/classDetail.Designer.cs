@@ -1,4 +1,4 @@
-﻿namespace Winform
+﻿namespace Assignment
 {
     partial class classDetail
     {
@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(classDetail));
             this.classUpdateDescription = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.classUpdateCapitity = new System.Windows.Forms.TextBox();
@@ -38,6 +39,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.fixClassBtn = new System.Windows.Forms.Button();
             this.originClassName = new System.Windows.Forms.TextBox();
+            this.deleteClassBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // classUpdateDescription
@@ -144,11 +146,22 @@
             this.originClassName.Size = new System.Drawing.Size(108, 20);
             this.originClassName.TabIndex = 15;
             // 
+            // deleteClassBtn
+            // 
+            this.deleteClassBtn.Location = new System.Drawing.Point(372, 246);
+            this.deleteClassBtn.Name = "deleteClassBtn";
+            this.deleteClassBtn.Size = new System.Drawing.Size(75, 51);
+            this.deleteClassBtn.TabIndex = 22;
+            this.deleteClassBtn.Text = "Xóa";
+            this.deleteClassBtn.UseVisualStyleBackColor = true;
+            this.deleteClassBtn.Click += new System.EventHandler(this.deleteClasssEvent);
+            // 
             // classDetail
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(477, 326);
+            this.Controls.Add(this.deleteClassBtn);
             this.Controls.Add(this.fixClassBtn);
             this.Controls.Add(this.classUpdateDescription);
             this.Controls.Add(this.label4);
@@ -159,9 +172,10 @@
             this.Controls.Add(this.originClassName);
             this.Controls.Add(this.classUpdateName);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "classDetail";
-            this.Text = "classDetail";
+            this.Text = "Thông tin Lớp Học";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -179,5 +193,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button fixClassBtn;
         private System.Windows.Forms.TextBox originClassName;
+        private System.Windows.Forms.Button deleteClassBtn;
     }
 }

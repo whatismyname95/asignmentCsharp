@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Winform.Properties {
+namespace Assignment.Properties {
     using System;
     
     

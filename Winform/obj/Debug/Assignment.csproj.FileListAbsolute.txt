@@ -15,3 +15,19 @@ C:\Users\Admin\documents\visual studio 2017\Projects\Winform\Winform\bin\Debug\G
 C:\Users\Admin\documents\visual studio 2017\Projects\Winform\Winform\bin\Debug\MySql.Data.xml
 C:\Users\Admin\documents\visual studio 2017\Projects\Winform\Winform\obj\Debug\Assignment.csproj.CopyComplete
 C:\Users\Admin\documents\visual studio 2017\Projects\Winform\Winform\obj\Debug\Winform.SearchForm.resources
+C:\Users\AnhNguyen\Desktop\New folder\asignmentCsharp\Winform\bin\Debug\Winform.exe.config
+C:\Users\AnhNguyen\Desktop\New folder\asignmentCsharp\Winform\bin\Debug\Winform.exe
+C:\Users\AnhNguyen\Desktop\New folder\asignmentCsharp\Winform\bin\Debug\Winform.pdb
+C:\Users\AnhNguyen\Desktop\New folder\asignmentCsharp\Winform\bin\Debug\Google.Protobuf.dll
+C:\Users\AnhNguyen\Desktop\New folder\asignmentCsharp\Winform\bin\Debug\MySql.Data.xml
+C:\Users\AnhNguyen\Desktop\New folder\asignmentCsharp\Winform\obj\Debug\Assignment.csprojAssemblyReference.cache
+C:\Users\AnhNguyen\Desktop\New folder\asignmentCsharp\Winform\obj\Debug\Assignment.Form1.resources
+C:\Users\AnhNguyen\Desktop\New folder\asignmentCsharp\Winform\obj\Debug\Winform.Properties.Resources.resources
+C:\Users\AnhNguyen\Desktop\New folder\asignmentCsharp\Winform\obj\Debug\Assignment.csproj.GenerateResource.cache
+C:\Users\AnhNguyen\Desktop\New folder\asignmentCsharp\Winform\obj\Debug\Assignment.csproj.CoreCompileInputs.cache
+C:\Users\AnhNguyen\Desktop\New folder\asignmentCsharp\Winform\obj\Debug\Assignment.csproj.CopyComplete
+C:\Users\AnhNguyen\Desktop\New folder\asignmentCsharp\Winform\obj\Debug\Winform.exe
+C:\Users\AnhNguyen\Desktop\New folder\asignmentCsharp\Winform\obj\Debug\Winform.pdb
+C:\Users\AnhNguyen\Desktop\New folder\asignmentCsharp\Winform\obj\Debug\Assignment.classDetail.resources
+C:\Users\AnhNguyen\Desktop\New folder\asignmentCsharp\Winform\obj\Debug\Assignment.LoginForm.resources
+C:\Users\AnhNguyen\Desktop\New folder\asignmentCsharp\Winform\obj\Debug\Assignment.stdDetail.resources

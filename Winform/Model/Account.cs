@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Assignment
+namespace Assignment.Model
 {
-    public interface UpdateForm
+    class Account
     {
-        void onUpdate();
     }
 }
