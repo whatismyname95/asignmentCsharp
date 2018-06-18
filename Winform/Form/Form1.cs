@@ -266,5 +266,16 @@ namespace Assignment
                 showStudentBySearch("name", studentSearchInput.Text);
             }
         }
+
+        private void refreshListEvent(object sender, EventArgs e)
+        {
+            showStudent();
+            showStdClass();
+            Console.WriteLine("OK");
+        }
+
+        
+
+        
     }
 }

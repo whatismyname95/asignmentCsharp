@@ -1,0 +1,15 @@
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\Winform\Winform\bin\Play\Winform.exe.config
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\Winform\Winform\bin\Play\Winform.exe
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\Winform\Winform\bin\Play\MySql.Data.dll
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\Winform\Winform\bin\Play\Google.Protobuf.dll
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\Winform\Winform\bin\Play\MySql.Data.xml
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\Winform\Winform\obj\Play\Assignment.csprojAssemblyReference.cache
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\Winform\Winform\obj\Play\Assignment.classDetail.resources
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\Winform\Winform\obj\Play\Assignment.Form1.resources
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\Winform\Winform\obj\Play\Assignment.LoginForm.resources
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\Winform\Winform\obj\Play\Winform.Properties.Resources.resources
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\Winform\Winform\obj\Play\Assignment.stdDetail.resources
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\Winform\Winform\obj\Play\Assignment.csproj.GenerateResource.cache
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\Winform\Winform\obj\Play\Assignment.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\Winform\Winform\obj\Play\Assignment.csproj.CopyComplete
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\Winform\Winform\obj\Play\Winform.exe

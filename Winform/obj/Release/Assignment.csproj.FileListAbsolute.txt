@@ -1,0 +1,17 @@
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\Winform\Winform\bin\Release\Winform.exe.config
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\Winform\Winform\bin\Release\Winform.exe
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\Winform\Winform\bin\Release\Winform.pdb
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\Winform\Winform\bin\Release\MySql.Data.dll
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\Winform\Winform\bin\Release\Google.Protobuf.dll
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\Winform\Winform\bin\Release\MySql.Data.xml
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\Winform\Winform\obj\Release\Assignment.csprojAssemblyReference.cache
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\Winform\Winform\obj\Release\Assignment.classDetail.resources
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\Winform\Winform\obj\Release\Assignment.Form1.resources
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\Winform\Winform\obj\Release\Assignment.LoginForm.resources
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\Winform\Winform\obj\Release\Winform.Properties.Resources.resources
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\Winform\Winform\obj\Release\Assignment.stdDetail.resources
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\Winform\Winform\obj\Release\Assignment.csproj.GenerateResource.cache
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\Winform\Winform\obj\Release\Assignment.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\Winform\Winform\obj\Release\Assignment.csproj.CopyComplete
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\Winform\Winform\obj\Release\Winform.exe
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\Winform\Winform\obj\Release\Winform.pdb
